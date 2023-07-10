@@ -1,0 +1,36 @@
+header div {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #0000000a;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Inconsolata';
+}
+
+
+header a{
+    font-size: 23px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    color: rebeccapurple;
+    transition: all .2s ease-in-out;
+  }
+  
+nav:not(:hover) {
+    transform: scale(0.9);
+    opacity: 0.8;
+    transition: all .2s ease-in-out;
+}

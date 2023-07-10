@@ -1,0 +1,65 @@
+.techs{
+    background-color: #f0f2ed;
+    width: 98%;
+    margin: 20px auto;
+    border-radius: 30px;
+}
+
+.techs h1 {
+    display: flex;
+    justify-content: center;
+    color: #1d1022;
+    padding: 40px;
+    letter-spacing: 4px;
+
+}
+
+.tech-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cardtech img {
+    width: 120px;
+}
+
+.cardtech {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cbbac1;
+    margin: 10px 5px;
+    padding: 10px;
+    width: 30%;
+}
+
+.cardtech:hover {
+    transform: scale(1.0);
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+  }
+  
+.cardtech:not(:hover) {
+    transform: scale(0.7);
+    opacity: 0.8;
+    border-radius: 30px;
+    transition: all .2s ease-in-out;
+}
+
+.html {
+    background-color: #fc882fa9
+}
+.css {
+    background-color: #32abe7ad
+}
+.js{
+    background-color: #fcdd2fa2;
+}
+.react {
+    background-color: #9fc3efb4;
+}
+.php {
+    background-color: #8f93bf98;
+}

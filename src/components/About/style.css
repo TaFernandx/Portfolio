@@ -1,0 +1,48 @@
+.aboutme{
+    background-color: #f0f2ed;
+    width: 98%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.aboutme h1 {
+    display: flex;
+    justify-content: center;
+    color: #1d1022;
+    padding: 40px;
+    letter-spacing: 4px;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    
+}
+
+.card {
+    border: 0px solid;
+    padding: 5px;
+    margin: 15px 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cbbac1;
+    line-height: 40px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+  }
+  
+.card:not(:hover) {
+    transform: scale(0.9);
+    opacity: 0.8;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
