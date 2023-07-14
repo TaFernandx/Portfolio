@@ -3,13 +3,8 @@ import './style.css';
 
 
 export default Techs => {
-    const [isDarkMode, setIsDarkMode] = useState(false)
 
-    const DarkModeToggle = () => {
-        setIsDarkMode(!isDarkMode);
-    }
     return(
-        <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>
             <div className='limit techs' id='Techs'>
                 <div>
                     <h1>My Technologies</h1>
@@ -30,10 +25,13 @@ export default Techs => {
                         <div className='cardtech php'>
                             <img src='./assets/techIcons/php.svg'/>
                         </div>
-                        <h1>Portfolio under construction c:</h1>
+                        <div className='cardtech angular'>
+                            <img src='./assets/techIcons/angular.svg'/>
+                        </div>
                     </div>
+                    <h1>Portfolio under construction c:</h1>
                 </div>
             </div>
-        </div>
+        
     )
 }

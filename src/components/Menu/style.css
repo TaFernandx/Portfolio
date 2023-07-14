@@ -21,6 +21,7 @@ header a{
 
 nav {
     overflow: hidden;
+    z-index: 1;
 }
 
 nav a:hover {
@@ -34,3 +35,13 @@ nav:not(:hover) {
     opacity: 0.8;
     transition: all .2s ease-in-out;
 }
+
+#dark header a {
+    color: aliceblue;
+}
+
+#dark nav a:hover {
+    transform: scale(1.1);
+    color: rebeccapurple;
+    transition: all .2s ease-in-out;
+  }

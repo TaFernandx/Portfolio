@@ -3,6 +3,7 @@
     width: 98%;
     margin: 20px auto;
     border-radius: 30px;
+    transition: all .2s ease-in-out;
 }
 
 .techs h1 {
@@ -62,4 +63,21 @@
 }
 .php {
     background-color: #8f93bf98;
+}
+.angular{
+    background-color: #dd2c00a6;
+}
+
+#dark .techs {
+    background-color: #180d30;
+}
+#dark .techs h1 {
+    color: #a88bda;
+}
+
+@media screen and (max-width: 768px) {
+    .tech-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

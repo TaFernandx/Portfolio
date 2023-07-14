@@ -3,6 +3,7 @@
     width: 98%;
     margin: auto;
     border-radius: 30px;
+        transition: all .2s ease-in-out;
 }
 
 .aboutme h1 {
@@ -13,12 +14,17 @@
     letter-spacing: 4px;
 
 }
+.aboutme p {
+    color: #1d1022;
+}
+.card h2 {
+    color: #1d1022;
+}
 
 .cards {
     display: flex;
     flex-direction: row;
     padding: 32px;
-    
 }
 
 .card {
@@ -45,4 +51,40 @@
     opacity: 0.8;
     border-radius: 10px;
     transition: all .2s ease-in-out;
+}
+
+#dark .card {
+    background-color: #ffab01;
+}
+
+#dark .aboutme {
+    background-color: #180d30
+}
+
+#dark .aboutme h1 {
+    color: #a88bda;
+}
+#dark .aboutme p {
+    color: #a88bda;
+}
+
+#dark .card p, h2 {
+    color: #3914b1;
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cards {
+        padding: 2px;
+    }
+
+    .card {
+        margin: auto;
+    }
 }
